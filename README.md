@@ -24,6 +24,7 @@ I have provided the bat file I personally use to start this script, just double 
 ```
 start "xinagg360-ACII" "D:\Ubisoft\Assassin's Creed II\AssassinsCreedIIGame.exe"
 ```
+You can also use ```start.exe``` from [emuCenter](https://github.com/Maxsafer/emuCenter) as it only looks for any start.bat in the same folder and runs that, this helps if you want to bundle a single pipeline to run from e.g. Steam. ```start.exe → start.bat → Game.exe```
 
 ### CLI
 The script has parameters in case you want to mess with it e.g.
