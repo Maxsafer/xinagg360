@@ -7,7 +7,7 @@ This project aims to take any **xin**put and **agg**regate them into an emulated
 ## But why?
 I created this for my other project [emuCenter](https://github.com/Maxsafer/emuCenter) and decided to release a standalone script since it has helped me with specific scenarios outside of emulation.
 
-One example being Assassin's Creed II, this game is old and wont function correctly with some modern controllers even though they are xinput compatible. This fixes that.
+One example being Assassin's Creed II, this game is old and won't function correctly with some modern controllers even though they are xinput compatible. This fixes that.
 
 ## Dependencies
 - Tested on Python 3.12.0 - Most likely works on all newer versions and some older ones
