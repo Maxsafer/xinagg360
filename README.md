@@ -20,7 +20,7 @@ One example being Assassin's Creed II, this game is old and wont function correc
 
 ## How to run
 ### start.bat
-I have provided the bat file I personally use to start this script, just double click it from the project directory (or create a shortcut) and the emulated controller will appear, to disconnect it just close the script window.
+I have provided the bat file I personally use to start this script, just double click it from the project directory (or create a shortcut) and the emulated controller will appear, to disconnect it just close the script window. You could potentially modify this script to launch your desired game as well.
 
 ### CLI
 The script has parameters in case you want to mess with it e.g.
