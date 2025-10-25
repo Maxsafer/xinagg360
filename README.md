@@ -28,7 +28,7 @@ For `start.bat` just double click it from the project directory (or create a sho
 ```
 start "xinagg360-ACII" "D:\Ubisoft\Assassin's Creed II\AssassinsCreedIIGame.exe"
 ```
-You can also use `./dist/start.bat` for a more automated solution like `start.exe → start.bat → Game.exe` I get into the details in the xinagg360.exe section.
+You can also use `./dist/start.bat` for a more automated solution like `start.exe → start.bat → Game.exe` I get into the details in the [xinagg360.exe section](https://github.com/Maxsafer/xinagg360?tab=readme-ov-file#xinagg360exe).
 
 ### CLI
 The script has parameters in case you want to mess with it e.g.
