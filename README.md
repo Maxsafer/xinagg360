@@ -18,8 +18,8 @@ One example being Assassin's Creed II, this game is old and won't function corre
 - Install Python3
 - Install ViGEmBus_1.22.0_x64_x86_arm64.exe
 
-## How to run
-### start.bat
+## How to run (3 methods)
+### Method 1: start.bat
 I have provided 2 bat files  to start this script:
 - `start.bat`
 - `./dist/start.bat`
@@ -30,13 +30,13 @@ start "xinagg360-ACII" "D:\Ubisoft\Assassin's Creed II\AssassinsCreedIIGame.exe"
 ```
 You can also use `./dist/start.bat` for a more automated solution like `start.exe → start.bat → Game.exe` I get into the details in the [xinagg360.exe section](https://github.com/Maxsafer/xinagg360?tab=readme-ov-file#xinagg360exe).
 
-### CLI
+### Method 2: CLI
 The script has parameters in case you want to mess with it e.g.
 ```
 python xinagg360.py --poll-hz 500 --idle-hold-ms 750 --deadzone 7000 --trigger-deadzone 10
 ```
 
-### xinagg360.exe
+### Method 3: xinagg360.exe
 I added `xinagg360.exe` in `./dist` folder and can be dragged anywhere. When launched it shows a terminal window saying the emulated controller is currently working, on close it stops the controller.
 
 >I'm currently trying to make a `dll` that will execute this `exe` automatically when the game launches. The `dll` kinda works, but I will not publish those files until it works 100%.
