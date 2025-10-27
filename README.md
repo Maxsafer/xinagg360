@@ -47,3 +47,6 @@ Launch `start.exe` through a shortcut or from your game platform with the game e
 ```
 D:\Ubisoft\Assassin's Creed II\start.exe AssassinsCreedIIGame.exe
 ```
+
+## Things to keep in mind
+When testing this script in different machines, I noticed that if previous alternative drivers where installed as defaults (e.g. XBCD), the emulated controller will pop up as a controller for that driver. An easy fix is to just change the driver for the emulated controller from device manager to the xbox controller default one.
